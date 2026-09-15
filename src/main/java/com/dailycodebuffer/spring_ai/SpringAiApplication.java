@@ -9,6 +9,7 @@ public class SpringAiApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(SpringAiApplication.class, args);
 		System.out.println("Application is running and up and running");
+		System.out.println("changes are made in feature-restructuring branch");
 	}
 
 }
