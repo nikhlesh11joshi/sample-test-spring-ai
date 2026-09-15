@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class UpiController {
     @GetMapping("/upi")
     public String upiPage() {
+        System.out.println("UPI page is working");
         return "upi";
     }
 }
